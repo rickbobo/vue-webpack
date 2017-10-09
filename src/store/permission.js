@@ -6,11 +6,7 @@ const SET_ROUTER = 'SET_ROUTER';
 const GET_ADD_ROUTER = 'GET_ADD_ROUTER';
 
 function hasPermission(roles, {auth, key}) {
-  if (!auth) {
-    return true;
-  } else {
-    return roles.includes(key);
-  }
+  return !auth ? true : roles.includes(key);
 }
 
 function filterAsyncRouter(asyncRouter, roles) {

@@ -296,11 +296,7 @@ const instance = new router({
 const whiteList = ['/login', '/firstUpdatePassword', '/401', '/404', '/500'];
 
 function hasPermission(roles, {auth, key}) {
-  if (!auth) {
-    return true;
-  } else {
-    return roles.includes(key);
-  }
+  return !auth ? true : roles.includes(key);
 }
 
 instance.beforeEach((to, from, next) => {

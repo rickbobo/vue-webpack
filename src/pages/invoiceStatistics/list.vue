@@ -39,11 +39,11 @@
       </el-table-column>
       <el-table-column label="开票成功数量" prop="invoiceCount" align="center">
       </el-table-column>
-      <el-table-column label="开票总税额" prop="invoiceTotalAmountCount" align="center">
+      <el-table-column label="开票总税额" prop="invoiceTaxAmountCount" align="center">
       </el-table-column>
       <el-table-column label="开票总金额" prop="invoiceAmountCount" align="center">
       </el-table-column>
-      <el-table-column label="总价税合计金额" prop="invoiceTaxAmountCount" align="center">
+      <el-table-column label="总价税合计金额" prop="invoiceTotalAmountCount" align="center">
       </el-table-column>
     </el-table>
     <div class="block paging">
