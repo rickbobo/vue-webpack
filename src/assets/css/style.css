@@ -1,0 +1,115 @@
+* {
+  font-family: "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "微软雅黑", Arial, sans-serif;
+  margin: 0;
+}
+
+body {
+  min-width: 1349px
+}
+
+a {
+  text-decoration: none;
+}
+
+.mt-10 {
+  margin-top: 10px;
+}
+
+.mt-20 {
+  margin-top: 20px;
+}
+
+.mt-40 {
+  margin-top: 40px;
+}
+
+.mt-90 {
+  margin-top: 90px;
+}
+
+.mb-20 {
+  margin-bottom: 20px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.font-14 {
+  font-size: 14px;
+}
+
+.right-container {
+  position: relative;
+  margin-top: 90px;
+  padding-bottom: 50px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.manage-header {
+  text-align: right;
+  margin-bottom: 10px;
+  overflow: hidden;
+  width: 100%
+}
+
+.main-content-title {
+  height: 50px;
+  line-height: 50px;
+  border-bottom: 1px solid #cccccc;
+  font-size: 20px;
+}
+
+.paging {
+  position: absolute;
+  bottom: 0px;
+  right: 30px;
+}
+
+.el-form-item-require{
+  color: red;
+}
+
+.el-form-item {
+  margin-bottom: 16px
+}
+
+.invoice-make-block-content label.el-form-item__label {
+  color: #2f708e !important;
+}
+
+/*table-展开行开始*/
+.table-expand {
+  font-size: 0;
+}
+
+.table-expand label {
+  width: 120px;
+  color: #99a9bf;
+}
+
+.table-expand .el-form-item {
+  margin-right: 0;
+  margin-bottom: 0;
+  width: 50%;
+}
+
+/*table-展开行结束*/
+
+/*复写Element-UI开始*/
+.clearfix {
+  *zoom: 1;
+}
+
+.clearfix:before, .clearfix:after {
+  display: table;
+  line-height: 0;
+  content: "";
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+/*复写Element-UI结束*/
